@@ -1,0 +1,3 @@
+[submodule "src/corelib"]
+	path = src/corelib
+	url = https://github.com/Infineon/sensor-xensiv-pasco2.git
