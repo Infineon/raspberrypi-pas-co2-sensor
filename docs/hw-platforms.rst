@@ -20,10 +20,10 @@ PAS CO2 Sensor Shield2Go
  .. image:: img/pas-co2-s2go-front.jpg
     :width: 300
 
-* `PAS CO2 Shield2Go product page <http://www.notfound.com>`_ (Coming soon)
-* `Quick Start Guide S2Go <http://www.notfound.com>`_ (Coming soon)(for Arduino)
+* `PAS CO2 Shield2Go product page <https://www.infineon.com/cms/en/product/evaluation-boards/shield_pasco2_sensor>`_
+* `Quick Start Guide S2Go <https://www.infineon.com/cms/en/product/evaluation-boards/shield_pasco2_sensor/#!documents>`_
 
-PAS CO2 Miniboard
+PAS CO2 V01 Miniboard
 """""""""""""""""""
 
 .. image:: img/pas-co2-miniboard.jpg
@@ -31,6 +31,15 @@ PAS CO2 Miniboard
 
 * `PAS CO2 Miniboard product page <https://www.infineon.com/cms/en/product/evaluation-boards/eval_pasco2_miniboard>`_
 * `PAS CO2 Miniboard documentation <https://www.infineon.com/cms/en/product/evaluation-boards/eval_pasco2_miniboard/#!documents>`_
+
+PAS CO2 V15 Miniboard
+"""""""""""""""""""
+
+.. image:: img/pas-co2-miniboard_v15.jpg
+    :width: 200
+
+* `PAS CO2 Miniboard product page <https://www.infineon.com/cms/en/product/evaluation-boards/eval_co2_5v_miniboard>`_
+* `PAS CO2 Miniboard documentation <https://www.infineon.com/cms/en/product/evaluation-boards/eval_co2_5v_miniboard/#!documents>`_
 
 Supported MCU Platforms
 -----------------------
@@ -52,4 +61,4 @@ The library examples have been built and successfully executed on the following 
     * - `Arduino Uno Rev3 <https://store.arduino.cc/arduino-uno-rev3>`_
 
 
-Find out which boards are build checked under continuous integration `here <https://github.com/Infineon/arduino-pas-co2-sensor/blob/master/.github/workflows/build-check.yml>`_.
+Find out which boards are build checked under continuous integration `here <https://github.com/Infineon/raspberrypi-pas-co2-sensor/blob/master/.github/workflows/build-check.yml>`_.

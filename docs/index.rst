@@ -2,9 +2,9 @@
 Home
 ****
 
-Welcome to the Infineon Photoacoustic Spectroscopy (PAS) XENSIV™ CO2 Sensor Arduino library docs!
+Welcome to the Infineon Photoacoustic Spectroscopy (PAS) XENSIV™ CO2 Sensor Raspberry Pi library docs!
 
-.. image:: img/arduino-logo.png
+.. image:: img/rpi-logo.png
     :height: 200
 
 .. image:: img/pas-co2-module.png
@@ -24,4 +24,4 @@ Welcome to the Infineon Photoacoustic Spectroscopy (PAS) XENSIV™ CO2 Sensor Ar
 License
 =======
 
-Find the license for this library `here <https://github.com/Infineon/arduino-pas-co2-sensor/blob/master/LICENSE>`_.
+Find the license for this library `here <https://github.com/Infineon/rpi-pas-co2-sensor/blob/master/LICENSE>`_.
