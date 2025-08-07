@@ -9,7 +9,7 @@ int main()
     uint8_t prodID=0;
     uint8_t revID=0;
     
-    ret = begin(true,false);
+    ret = begin(true,false);    //First argument enables I2C and the second argument enables UART
     if(ret != XENSIV_PASCO2_OK)
     {   
         printf("CO2 intialization error\n");

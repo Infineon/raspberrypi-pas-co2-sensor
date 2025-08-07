@@ -4,7 +4,8 @@ Library Installation
 Manual Installation
 -------------------
 
-Download the desired .zip library version from the repository `releases <https://github.com/Infineon/rpi-pas-co2-sensor/releases>`_ section.
+Clone the desired library version from the repository `releases <https://github.com/Infineon/rpi-pas-co2-sensor/releases>`_ section.
+git clone --recurse-submodules <link>
  
 |:warning:| As a general recommendation, direct downloads from the master branch should be avoided. Even if it should not, it could contain incomplete or faulty code.
 

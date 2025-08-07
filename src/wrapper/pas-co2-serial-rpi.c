@@ -1,7 +1,7 @@
 /** 
  * @file        pas-co2-serial-rpi.c
  * @brief       PAS CO2 Serial Arduino API
- * @copyright   Copyright (c) 2020-2021 Infineon Technologies AG
+ * @copyright   Copyright (c) 2025 Infineon Technologies AG
  *              
  * SPDX-License-Identifier: MIT
  */

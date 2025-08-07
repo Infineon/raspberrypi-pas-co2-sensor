@@ -3,7 +3,7 @@
 Getting Started
 ================
 
-In this quick tutorial we will go through one of the PAS CO2 sensor examples available using the Shield2Go or the Miniboard and the XMC microcontroller family in Arduino.
+In this quick tutorial we will go through one of the PAS CO2 sensor examples available using the Shield2Go or the Miniboard and Raspberry Pi.
 
 Required Hardware
 -----------------
@@ -23,11 +23,9 @@ Required Hardware
     * - or `PAS CO2 V15 Miniboard <https://www.infineon.com/cms/en/product/evaluation-boards/eval_co2_5v_miniboard>`_
       - .. image:: img/pas-co2-miniboard_v15.jpg
             :height: 80 
-    * - `XMC 2Go <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/>`_
-      - .. image:: img/xmc2go.jpg
-            :height: 80
-    * - Pin headers (included with the XMC 2Go) 
-      - 
+    * - `Raspberry Pi 3/3B+/4B <https://www.raspberrypi.com/>`_
+      - .. image:: img/RPi4b.jpg
+            :height: 120
     * - Micro-USB to USB A cable 
       -
 
@@ -67,7 +65,7 @@ Check the `Shield2Go Manual <https://www.infineon.com/cms/en/product/evaluation-
 
  
     .. image:: img/raspberry_pi_setup.png
-        :width: 250
+        :width: 600
 
 
 B. Miniboard
@@ -78,7 +76,9 @@ In order to use the I2C interface we need to add a 10 Kohm pull-up resistors to 
 .. image:: img/wire_connection_mini_board_1.png
     :width: 600
 
-You need to provide a 12V DC signal to for the emitter for VO1 miniboard. 
+
+
+You need to provide a 12V DC signal to for the emitter for V01 miniboard. 
 For V15 miniboard the 5V can be provided from Raspberry Pi
  
 
@@ -110,6 +110,9 @@ What's next?
 ------------
 
 This is just the start |:rocket:| !
+
+Changes required for switching the communication interface from I2C to UART
+ret = begin(true,false);    //First argument enables I2C and the second argument enables UART
 
 Check out the rest of the available :ref:`library examples <lexamples>` and find out more about the library functions in the :ref:`API reference <api-ref>` section.
 

@@ -3,7 +3,7 @@
 Examples
 ========
 
-The following `examples <https://github.com/Infineon/rpi-pas-co2-sensor/tree/master/examples>`_ are provided in the library:
+The following `examples <https://github.com/Infineon/-pas-co2-sensor/tree/master/examples>`_ are provided in the library:
 
 .. list-table::
 
