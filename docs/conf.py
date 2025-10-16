@@ -21,8 +21,8 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 # -- Project information -----------------------------------------------------
 
-project = 'XENSIV™ PAS CO2 Sensor Arduino Library'
-copyright = '2020-2022 Infineon Technologies AG'
+project = 'XENSIV™ PAS CO2 Sensor Rpi Library'
+copyright = '2025 Infineon Technologies AG'
 author = 'Infineon Technologies AG'
 
 # -- General configuration ---------------------------------------------------
@@ -135,7 +135,7 @@ html_static_path = ['_templates']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-	"XENSIV™ PAS CO2 Sensor Arduino Library": "build/xml/"
+	"XENSIV™ PAS CO2 Sensor Rpi Library": "build/xml/"
 }
-breathe_default_project = "XENSIV™ PAS CO2 Sensor Arduino Library"
+breathe_default_project = "XENSIV™ PAS CO2 Sensor Rpi Library"
 breathe_default_members = ('members', 'undoc-members')

@@ -3,15 +3,13 @@
 Examples
 ========
 
-The following `examples <https://github.com/Infineon/arduino-pas-co2-sensor/tree/master/examples>`_ are provided in the library:
+The following `examples <https://github.com/Infineon/-pas-co2-sensor/tree/master/examples>`_ are provided in the library:
 
 .. list-table::
 
-    * - `serial-alarm <https://github.com/Infineon/arduino-pas-co2-sensor/tree/master/examples/serial-alarm>`_         
-      - Readout of the sensor CO2 concentration based on threshold crossing and synched via hardware interrupt  
-    * - `serial-device-id <https://github.com/Infineon/arduino-pas-co2-sensor/tree/master/examples/serial-device-id>`_    
+    * - `continuous-mode <https://github.com/Infineon/rpi-pas-co2-sensor/tree/master/examples/continuous-mode>`_         
+      - Readout of the sensor CO2 concentration using continuous measurement mode  
+    * - `device-id <https://github.com/Infineon/rpi-pas-co2-sensor/tree/master/examples/device-id>`_    
       - Readout of the sensor devices product and revision identifiers 
-    * - `serial-oneshot <https://github.com/Infineon/arduino-pas-co2-sensor/tree/master/examples/serial-oneshot>`_ 
+    * - `single-shot-mode <https://github.com/Infineon/rpi-pas-co2-sensor/tree/master/examples/single-shot-mode>`_ 
       - Readout of the sensor CO2 concentration value using single shot measurement mode
-    * - `serial-periodic <https://github.com/Infineon/arduino-pas-co2-sensor/tree/master/examples/serial-periodic>`_ 
-      - Readout of the sensor CO2 concentration value using periodic measurement mode
